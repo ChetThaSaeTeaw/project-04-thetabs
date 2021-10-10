@@ -1,0 +1,24 @@
+.Content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5%;
+}
+
+.Content-box > p {
+  margin: 5% 0;
+}
+
+.Content-box > p > span {
+  font-weight: bold;
+  border-bottom: 3px solid greenyellow;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.Content-box > p > span:hover {
+  background-color: greenyellow;
+  color: brown;
+}
